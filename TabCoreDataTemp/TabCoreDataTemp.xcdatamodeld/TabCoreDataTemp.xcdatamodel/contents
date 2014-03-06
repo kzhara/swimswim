@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="record" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Record" inverseName="event" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="menu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterField7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secField7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="setField7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="styleField7" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="swimdata" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="swimday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalField7" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="event" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Event" inverseName="record" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Srace" representedClassName="Srace" syncable="YES">
+        <attribute name="srdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sresult" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srmemo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srplace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srstyle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srtime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Record" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Srace" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
